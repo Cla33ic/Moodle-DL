@@ -62,5 +62,11 @@ setup(
         'Topic :: Multimedia :: Sound/Audio',
         'Topic :: Utilities',
     ],
+    extras_require={
+        'gui': [
+            'PySide6>=6.5.0',
+            'PySide6-WebEngine>=6.5.0',
+        ],
+    },
     zip_safe=False,
 )
